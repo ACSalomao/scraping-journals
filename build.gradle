@@ -1,0 +1,74 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.25'
+    id 'org.jetbrains.kotlin.plugin.spring' version '1.9.25'
+    id 'org.springframework.boot' version '3.5.6'
+    id 'io.spring.dependency-management' version '1.1.7'
+    id 'org.jetbrains.kotlin.plugin.jpa' version '1.9.25'
+}
+
+group = 'com'
+version = '0.0.1-SNAPSHOT'
+description = 'Project to scraping journals in websites sources'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    set('springCloudVersion', "2025.0.0")
+}
+
+dependencies {
+    // JPA e Web
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+
+    // Kotlin
+    implementation('com.fasterxml.jackson.module:jackson-module-kotlin')
+    implementation('org.jetbrains.kotlin:kotlin-reflect')
+
+    // Feign
+    implementation('org.springframework.cloud:spring-cloud-starter-openfeign')
+
+    // Swagger / OpenAPI 3
+    implementation('org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0')
+
+    // DevTools
+    developmentOnly('org.springframework.boot:spring-boot-devtools')
+
+    // Banco de dados H2
+    runtimeOnly('com.h2database:h2')
+
+    // Testes
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation('org.jetbrains.kotlin:kotlin-test-junit5')
+    testRuntimeOnly('org.junit.platform:junit-platform-launcher')
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+
+kotlin {
+    compilerOptions {
+        freeCompilerArgs.addAll '-Xjsr305=strict'
+    }
+}
+
+allOpen {
+    annotation 'jakarta.persistence.Entity'
+    annotation 'jakarta.persistence.MappedSuperclass'
+    annotation 'jakarta.persistence.Embeddable'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
