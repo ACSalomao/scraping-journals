@@ -23,7 +23,6 @@ class JournalsController(
         return ResponseEntity.ok()
     }
 
-
     @GetMapping("adduser")
     fun adduser(): ResponseEntity<String> {
         logger.info("Saving User")
