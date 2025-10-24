@@ -1,6 +1,8 @@
 package com.scraping_journals.adapter.client
 
+import com.scraping_journals.domain.response.ScrapingDobResponse
 import org.springframework.cloud.openfeign.FeignClient
+import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 
@@ -16,5 +18,5 @@ interface ScrapingDogClient {
         @RequestParam("as_yhi") asYhi: String? = null,
         @RequestParam("page") page: Int,
         @RequestParam("results") results: Int
-    ): String
+    ): ResponseEntity<ScrapingDobResponse>
 }
