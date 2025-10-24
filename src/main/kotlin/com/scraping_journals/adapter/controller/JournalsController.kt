@@ -17,13 +17,13 @@ class JournalsController(
     private val logger: Logger = LoggerFactory.getLogger(JournalsController::class.java)
 ) {
 
-    @PostMapping("import-file")
+    @PostMapping("/import-file")
     fun importFile(): ResponseEntity.BodyBuilder {
 
         return ResponseEntity.ok()
     }
 
-    @GetMapping("adduser")
+    @GetMapping("/adduser")
     fun adduser(): ResponseEntity<String> {
         logger.info("Saving User")
         userRepository.save(User(name = "John Doe"))
