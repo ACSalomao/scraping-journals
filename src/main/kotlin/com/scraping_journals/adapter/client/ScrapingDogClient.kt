@@ -13,9 +13,9 @@ interface ScrapingDogClient {
     fun searchGoogleScholar(
         @RequestParam("api_key") apiKey: String,
         @RequestParam("query") query: String,
-        @RequestParam("language") language: String = "pt-br",
-        @RequestParam("as_ylo") asYlo: String? = null,
-        @RequestParam("as_yhi") asYhi: String? = null,
+        @RequestParam("language") language: String?,
+        @RequestParam("as_ylo") asYlo: String?,
+        @RequestParam("as_yhi") asYhi: String?,
         @RequestParam("page") page: Int,
         @RequestParam("results") results: Int
     ): ResponseEntity<ScrapingDobResponse>

@@ -48,10 +48,23 @@ dependencies {
     // PDF
     implementation("org.apache.pdfbox:pdfbox:2.0.30")
 
+    // Spring WebFlux (WebClient)
+    implementation("org.springframework.boot:spring-boot-starter-webflux")
+
+    // Reactor Netty (já vem com WebFlux, mas bom garantir)
+    implementation("io.projectreactor.netty:reactor-netty-http")
+
+    // Kotlin Coroutines (opcional, se for usar suspend functions)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+
+
     // Testes
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation('org.jetbrains.kotlin:kotlin-test-junit5')
     testRuntimeOnly('org.junit.platform:junit-platform-launcher')
+
+    // MockMultipartFile
+    implementation("org.springframework:spring-test")
 }
 
 dependencyManagement {

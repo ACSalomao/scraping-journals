@@ -16,7 +16,7 @@ class PdfHandler {
             val texto = stripper.getText(document)
 
             // (opcional) — depuração: salvar o texto lido
-            File("debug_texto_extraido.txt").writeText(texto)
+//            File("debug_texto_extraido.txt").writeText(texto)
 
             // Regex mais tolerante: aceita várias quebras de linha e formatações
             val regex = Regex(
@@ -39,7 +39,7 @@ class PdfHandler {
             val texto = stripper.getText(document)
 
             // (opcional) salvar o texto para debug
-            File("debug_texto_extraido.txt").writeText(texto)
+//            File("debug_texto_extraido.txt").writeText(texto)
 
             // Regex que captura o texto entre "Resumo" e "Palavras-chave" ou "Introdução"
             val regex = Regex(

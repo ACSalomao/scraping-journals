@@ -31,6 +31,7 @@ class ScrapingDogService(
         val result = scrapingDogClient.searchGoogleScholar(
             apiKey = apiKey,
             query = query,
+            language = "pt-br",
             asYlo = startYear,
             asYhi = endYear,
             page = maxPages,
@@ -49,6 +50,7 @@ class ScrapingDogService(
             val response = scrapingDogClient.searchGoogleScholar(
                 apiKey = apiKey,
                 query = query,
+                language = "pt-br",
                 asYlo = startYear,
                 asYhi = endYear,
                 page = page,
