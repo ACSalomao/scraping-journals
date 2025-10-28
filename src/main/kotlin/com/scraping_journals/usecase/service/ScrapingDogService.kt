@@ -82,8 +82,8 @@ class ScrapingDogService(
     }
 
     companion object {
-        const val PAGE_START = 19
-        const val PAGE_MAX = 26
+        const val PAGE_START = 0
+        const val PAGE_MAX = 40
         const val MAX_RESULTS_PER_PAGE = 10
     }
 }

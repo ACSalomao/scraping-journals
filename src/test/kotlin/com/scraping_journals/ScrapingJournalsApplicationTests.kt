@@ -1,11 +1,14 @@
 package com.scraping_journals
 
+import com.scraping_journals.usecase.handler.PdfHandler
 import org.junit.jupiter.api.Test
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class ScrapingJournalsApplicationTests {
-
+class ScrapingJournalsApplicationTests(){
+    @Autowired
+    lateinit var pdfHandler: PdfHandler
 	@Test
 	fun contextLoads() {
 
@@ -25,5 +28,12 @@ class ScrapingJournalsApplicationTests {
 
         println("ListComplete: $listComplete")
 	}
+
+    @Test
+	fun pdfReadAndGetAbstractTest() {
+        val abstract = pdfHandler.extractAbstract("/home/asalomao/Downloads/pdfFileTest.pdf")
+
+        println(abstract)
+    }
 
 }

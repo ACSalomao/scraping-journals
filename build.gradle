@@ -45,6 +45,9 @@ dependencies {
     // Banco de dados H2
     runtimeOnly('com.h2database:h2')
 
+    // PDF
+    implementation("org.apache.pdfbox:pdfbox:2.0.30")
+
     // Testes
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation('org.jetbrains.kotlin:kotlin-test-junit5')
