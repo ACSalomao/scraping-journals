@@ -36,4 +36,15 @@ class PdfController(
 
         return ResponseEntity.ok(abstractText ?: "Abstract not found")
     }
+
+    @PostMapping("/extract-methodology-br", consumes = ["multipart/form-data"])
+    fun extractMethodologyBr(@RequestParam("file") file: MultipartFile): ResponseEntity<String?> {
+        val tempFile = File.createTempFile("uploaded-", ".pdf")
+        file.transferTo(tempFile)
+
+        val methodologyText = pdfHandler.extractMethodologyBr(tempFile.path)
+        tempFile.delete() // Limpeza do arquivo temporário
+
+        return ResponseEntity.ok(methodologyText ?: "Methodology not found")
+    }
 }

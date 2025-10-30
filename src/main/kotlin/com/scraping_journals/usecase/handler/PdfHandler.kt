@@ -53,4 +53,27 @@ class PdfHandler {
             return resumo?.replace("\\s+".toRegex(), " ")
         }
     }
+
+    fun extractMethodologyBr(caminhoPdf: String): String? {
+        PDDocument.load(File(caminhoPdf)).use { document ->
+            val stripper = PDFTextStripper()
+            stripper.startPage = 1
+            stripper.endPage = document.numberOfPages
+            val texto = stripper.getText(document)
+
+            // (opcional) salvar texto para inspecionar o conteúdo real
+            File("debug_texto_extraido.txt").writeText(texto)
+
+            // Expressão regular que captura o conteúdo da seção "Metodologia", "Método" ou "Methodology"
+            val regex = Regex(
+                pattern = "(?i)(metodologia|metodologia e procedimentos|método|methods|methodology)\\s*[:\\-–\\s]*([\\s\\S]{200,6000}?)(?=\\n\\s*(resultados|results|discussão|discussion|análise|analysis|conclusão|conclusion)\\b)",
+                options = setOf(RegexOption.IGNORE_CASE)
+            )
+
+            val match = regex.find(texto)
+            val metodologia = match?.groups?.get(2)?.value?.trim()
+
+            return metodologia?.replace("\\s+".toRegex(), " ")
+        }
+    }
 }

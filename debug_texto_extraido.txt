@@ -1,0 +1,681 @@
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+1 
+Os diferentes aspectos do Transtorno do Espectro Autista em meninas na infância e 
+adolescência: Uma revisão de literatura 
+The different aspects of Autism Spectrum Disorder in girls in childhood and adolescence: A 
+literature review 
+Los diferentes aspectos del Trastorno del Espectro Autista en niñas en la infancia y la adolescencia: 
+Una revisión de la literatura 
+ 
+Recebido: 19/02/2025 | Revisado: 25/02/2025 | Aceitado: 25/02/2025 | Publicado: 27/02/2025 
+  
+Erine Souza Aguiar 
+ORCID: https://orcid.org/0000-0002-7189-8431 
+Universidade do Estado do Pará, Brasil 
+E-mail: aguiarerine@gmail.com  
+Daniel Garcia da Gama Alves  
+ORCID: https://orcid.org/0000-0002-0292-7470 
+Universidade do Estado do Pará, Brasil 
+E-mail: daniel.gdgalves@aluno.uepa.br 
+Larissa Lina Takehana 
+ORCID: https://orcid.org/0000-0002-7086-4328 
+Universidade do Estado do Pará, Brasil 
+E-mail: linatakehana@hotmail.com 
+Kaylane Fernanda Costa de Melo 
+ORCID: https://orcid.org/0009-0001-1129-7239 
+Universidade do Estado do Pará, Brasil 
+E-mail: kaylanefernandacosta@gmail.com 
+Leonardo da Cunha Andrade 
+ORCID: https://orcid.org/0009-0000-0553-9943 
+Universidade do Estado do Pará, Brasil 
+E-mail: Leonardo.cunhandrade@gmail.com  
+Jennifer Ferreira dos Santos 
+ORCID: https://orcid.org/0009-0002-7151-6963 
+Universidade do Estado do Pará, Brasil 
+E-mail: kaylanefernandacosta@gmail.com  
+Patrícia Regina Bastos Neder 
+ORCID: https://orcid.org/0000-0002-2090-4176 
+Universidade do Estado do Pará, Brasil 
+E-mail: patrícia.neder@uepa.br 
+ 
+Resumo  
+O Transtorno do Espectro Autista (TEA) é caracterizado por dificuldades na comunicação, interação social e 
+comportamentos repetitivos ou restritos. O diagnóstico pode ocorrer a partir do primeiro ano, mas meninas autistas 
+frequentemente recebem um diagnóstico tardio devido a sintomas diferentes dos padrões esperados. Isso ocorre porque 
+os instrumentos diagnósticos, baseados no DSM-5, possuem viés masculino, dificultando a identificação do TEA em 
+meninas e impactando seu desenvolvimento psicossocial. O estudo tem como objetivo identificar quais as 
+particularidades do TEA em meninas e adolescentes do sexo feminino de 0 a 19 anos. Este estudo, uma revisão 
+integrativa, analisou particularidades do TEA em meninas e adolescentes de 0 a 19 anos, considerando artigos 
+publicados entre 2020 e 2024 nas bases BVS, Cochrane, PUBMED e SciELO. Foram selecionados 9 artigos, seguindo 
+o fluxograma PRISMA. Uma característica marcante do TEA feminino é a “camuflagem”, estratégia que permite às 
+meninas mascarar comportamentos e se adaptar às normas sociais. Embora facilite a interação, essa prática é exaustiva, 
+prejudica a saúde mental e atrasa diagnósticos. Estudos mostram que meninas com TEA apresentam maior atenção 
+social e comportamentos mais ajustados na infância, mas, desenvolvem dificuldades como ansiedade e menor contato 
+visual. Diferenças cerebrais também foram identificadas, como redução mais lenta da substância cinzenta e menor 
+presença de biomarcadores do TEA, sugerindo mecanismos de proteção nas mulheres. Esses achados reforçam que o 
+autismo se manifesta-se distintamente entre os sexos, e um modelo diagnóstico baseado no masculino pode levar ao 
+subdiagnóstico e à falta de suporte adequado para meninas autistas. 
+Palavras-chave: Transtorno do Espectro Autista; Mulheres; Criança; Adolescente; Diagnóstico. 
+ 
+Abstract  
+Autism Spectrum Disorder (ASD) is characterized by difficulties in communication, social interaction, and repetitive 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+2 
+or restricted behaviors. Diagnosis can occur as early as the first year of life, but autistic girls often receive a late 
+diagnosis due to symptoms that differ from the expected patterns. This is because diagnostic instruments, based on the 
+DSM-5, have a male bias, making it difficult to identify ASD in girls and impacting their psychosocial development. 
+The study aims to identify the particularities of ASD in girls and adolescents aged 0 to 19 years. This study, an 
+integrative review, analyzed the particularities of ASD in girls and adolescents aged 0 to 19 years, considering articles 
+published between 2020 and 2024 in the BVS, Cochrane, PUBMED, and SciELO databases. Nine articles were 
+selected, following the PRISMA flowchart. A striking characteristic of female ASD is “camouflage,” a strategy that 
+allows girls to mask behaviors and adapt to social norms. Although it facilitates interaction, this practice is exhausting, 
+harms mental health and delays diagnosis. Studies show that girls with ASD have greater social attention and more 
+adjusted behaviors in childhood, but develop difficulties such as anxiety and less eye contact. Brain differences have 
+also been identified, such as slower reduction of gray matter and lower presence of ASD biomarkers, suggesting 
+protective mechanisms in females. These findings reinforce that autism manifests itself differently between the sexes, 
+and a diagnostic model based on males can lead to underdiagnosis and lack of adequate support for autistic girls. 
+Keywords: Autism Spectrum Disorder; Women; Child; Adolescent; Diagnosis. 
+ 
+Resumen  
+El Trastorno del Espectro Autista (TEA) se caracteriza por dificultades en la comunicación, la interacción social y 
+comportamientos repetitivos o restringidas. El diagnóstico puede ocurrir ya en el primer año de vida, pero las niñas 
+autistas a menudo reciben un diagnóstico tardío debido a síntomas que difieren de los patrones esperados. Esto ocurre 
+porque los instrumentos de diagnóstico, basados en el DSM-5, tienen un sesgo masculino, lo que dificulta la 
+identificación del TEA en las niñas e impacta en su desarrollo psicosocial. El estudio tiene como objetivo identificar las 
+particularidades del TEA en niñas y adolescentes de 0 a 19 años. Este estudio, una revisión integradora, analizó las 
+particularidades del TEA en niñas y adolescentes de 0 a 19 años, considerando artículos publicados entre 2020 y 2024 
+en las bases de datos BVS, Cochrane, PUBMED y SciELO. Se seleccionaron 9 artículos, siguiendo el diagrama de flujo 
+PRISMA. Una característica sorprendente del TEA femenino es el “camuflaje”, una estrategia que permite a las niñas 
+enmascarar comportamientos y adaptarse a las normas sociales. Aunque facilita la interacción, esta práctica es 
+agotadora, perjudica la salud mental y retrasa los diagnósticos. Los estudios muestran que las niñas con TEA tienen 
+mayor atención social y comportamientos más ajustados en la infancia, pero desarrollan dificultades como ansiedad y 
+menor contacto visual. También se identificaron diferencias cerebrales, como una reducción más lenta de la materia 
+gris y una menor presencia de biomarcadores de TEA, lo que sugiere mecanismos de protección en las mujeres. Estos 
+hallazgos refuerzan la idea de que el autismo se manifiesta de manera diferente entre los sexos, y un modelo de 
+diagnóstico basado en lo masculino puede llevar a un subdiagnóstico y a una falta de apoyo adecuado para las niñas 
+autistas. 
+Palabras clave: Trastorno del Espectro Autista; Mujeres; Niña; Adolescente; Diagnóstico. 
+ 
+1. Introdução  
+O Transtorno do Espectro Autista (TEA) é um transtorno permanente do desenvolvimento neurológico. Possui uma 
+apresentação altamente variável, mas seu núcleo é caracterizado por dificuldades de comunicação e interação social e pela 
+presença de comportamentos e/ou interesses repetitivos ou restritos. O TEA possui diagnóstico clínico e pode ser identificado 
+consistentemente a partir de 1 ano, contudo a faixa etária média no momento diagnóstico é de 4 a 5 anos de idade, o que é 
+bastante tardio, uma vez que quanto mais cedo for feita intervenção, menores são os prejuízos ao indivíduo (Sociedade Brasileira 
+de Pediatria [SBP], 2019). Para isso, o Ministério da Saúde disponibiliza algumas informações sobre os marcos do 
+desenvolvimento na caderneta da criança, fazendo-se fundamental que os profissionais saibam identificar e conduzir as 
+singularidades de cada paciente em suspeita de TEA, sendo criança ou adolescente (Ministério da Saúde, 2022). 
+Ademais, após a infância, o diagnóstico do TEA tende a ser ainda mais difícil, devido à atenuação dos prejuízos centrais 
+ao longo do desenvolvimento, ocasionado ou pela evolução favorável ou pelo mascaramento de comportamentos menos aceitos 
+socialmente (Fombonne, 2020). Na adolescência, em específico, indivíduos com TEA podem apresentar um rebaixamento de 
+habilidades sociais e de comunicação em razão da maior ansiedade e depressão ligados à sua autopercepção quanto às suas 
+dificuldades intrínsecas, acompanhados pelas maiores demandas do processo de desenvolvimento educacional e social (Hervás, 
+2016). 
+Além da faixa etária, um dos entraves mais claros é o baixo diagnóstico feminino. O TEA é tradicionalmente visto como 
+uma condição associada ao gênero masculino. Contudo, essa noção tem sido cada vez mais questionada como sendo fruto de 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+3 
+uma estereotipação masculina do transtorno, ou seja, que o quadro clínico clássico utilizado para rastreio se baseia em demasiado 
+na apresentação do autismo em meninos, de modo que falha frequentemente, em detectar a doença no sexo feminino. Uma 
+diferença importante é um prejuízo maior na área sensorial, porém, menor na área comunicativa, com meninas demonstrando 
+maior capacidade de manter conversas recíprocas e fazer amizades, bem como, hiperfocos de menor estranhamento social. Essa 
+conjunção de fatores faz com que muitas mulheres se esquivem do diagnóstico, resultando em um ciclo vicioso de suposta baixa 
+prevalência do TEA na população feminina (Milner et al., 2019). 
+Apesar do TEA nas meninas ser menos prevalente, é possível observar que nelas a sintomatologia costuma ser mais 
+severa no aspecto da inteligência, pois, frequentemente, elas apresentam QI de menor grau, além de dificuldades de adaptação. 
+Esses sinais associados à inteligência, costumam ser os mais decisivos no diagnóstico das garotas, pois, quando elas apresentam 
+sintomas não relacionados a isso, as outras características do TEA, como hipersensibilidade e timidez, tendem a serem ignoradas 
+e tratadas como típicas do comportamento feminino (Freire & Cardoso, 2022). 
+Outrossim, outra diferença importante é que os meninos costumam apresentar sinais associados à impulsividade e 
+movimentos repetitivos de forma precoce, enquanto nas meninas, esses sinais são menos comuns. Entretanto, na adolescência, 
+nas garotas é mais prevalente alguns transtornos, como depressão, ansiedade, distúrbios alimentares e de personalidade. Esses 
+transtornos surgem na adolescência, como consequência do desgaste mental após anos de camuflagem, e pelo ambiente começar 
+a exigir cada vez mais esforço das meninas em desenvolvimento. (Instituto de Psiquiatria [IPQ], 2024). 
+Atualmente, esses são os instrumentos utilizados na rotina clínica em concordância com o DSM-5: Modified Checklist 
+for Autism in Toddlers (MCHAT), Autism Spectrum Screening Questionnaire (ASSQ) e o Autism Behavior Checklist (ABC). 
+Esses instrumentos foram moldados em estudos de amostras com poucos indivíduos do sexo feminino, o que causou demasiada 
+inclinação dos critérios para as características do autismo na população masculina, dessa forma, a população feminina autista 
+pode passar despercebida por alguns testes, explicando o diagnóstico tardio (Fink et al., 2023). 
+Nesse sentido, o levantamento de pesquisas sobre os sinais e sintomas do TEA no sexo feminino, em crianças e 
+adolescentes, ou seja, com alvo em meninas na faixa etária de 0-19 anos, conforme preconizado pela Organização Mundial de 
+Saúde (World Heath Organization, 2024), é fundamental, visto a complexidade e subnotificação do diagnóstico nesse grupo 
+populacional. 
+Assim, o objetivo primário do presente estudo é identificar, mediante busca na literatura, quais são as particularidades 
+do Transtorno do Espectro Autista em meninas e adolescentes do sexo feminino de 0 a 19 anos. Secundariamente, objetiva-se 
+buscar as diferentes manifestações do TEA em meninas, entre as primeiras fases do desenvolvimento humano e compará-las 
+com o observado no sexo masculino, além de avaliar as dificuldades e possíveis barreiras para o diagnóstico precoce do TEA 
+em meninas. 
+ 
+2. Metodologia  
+Trata-se de uma pesquisa de natureza quantitativa em relação à quantidade de artigos selecionados e qualitativa em 
+relação à discussão dos artigos (Pereira et al., 2018), em um estudo do tipo revisão integrativa (Crossetti, 2012) e, de caráter 
+observacional e retrospectivo, realizada a partir de dados secundários obtidos nas bases de dados eletrônicas Medical Literature 
+Analysis and Retrieval System Online (MEDLINE) e LILACS, via Biblioteca Virtual em Saúde (BVS) e PubMed, SciELO e 
+Cochrane. O estudo seguiu cinco etapas, segundo o artigo de Hopia, Latvala e Liimatainen (2016): 1) Identificação do problema; 
+2) Busca na literatura; 3) Avaliação dos dados; 4) Análise dos dados; 5) Síntese e apresentação dos dados.  
+Para auxiliar na elaboração do estudo foi utilizada a estratégia PICO para a pergunta norteadora e uma adaptação do 
+Checklist PRISMA 2020 para revisões sistemáticas (Page et al., 2021). Com isso, foi elaborada a seguinte estratégia PICO 
+(População/Pacientes, Intervenção/Interesse, Comparação/Controle e Outcome/Desfecho): P – Meninas de 0 a 19 anos com 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+4 
+Transtorno do Espectro Autista (TEA); I – Sinais e aspectos comportamentais; C - Comparação com os sinais e aspectos 
+comportamentais de meninos de 0 a 19 anos; O – Diagnóstico eficaz e precoce (Santos & Galvão, 2014). Assim, foi possível 
+chegar à seguinte pergunta norteadora, que permitiu a definição de um critério de elegibilidade bem direcionados para o alcance 
+dos objetivos propostos: “Quais os sinais e aspectos comportamentais de meninas de 0 a 19 anos diagnosticadas com TEA, em 
+comparação aos de meninos com TEA da mesma faixa etária, e como essas diferenças afetam a realização de um diagnóstico 
+precoce e eficaz do TEA em meninas?”.   
+A busca por dados para compor o presente estudo foi realizada em novembro de 2024, com a utilização de palavras 
+chaves/descritores, os quais foram obtidos em língua inglesa e portuguesa na plataforma de Descritores em Ciência e Saúde 
+(DeCS/MeSH): Transtorno do Espectro Autista, Mulheres, Criança, Adolescente, Autism Spectrum Disorder, Women, Child e 
+Adolescent. Para obter resultados mais específicos durante a busca dos artigos, o operador “AND” foi usado pelos pesquisadores. 
+Dessa forma, a seguinte configuração foi estabelecida para a pesquisa nas plataformas digitais: “‘Transtorno do Espectro Autista’ 
+AND Mulheres AND Criança AND Adolescente” / “‘Autism Spectrum Disorder’ AND Women AND Child AND Adolescent”. 
+A fim de atingir os objetivos da pesquisa, foram incluídos na pesquisa artigos que abordam os diferentes aspectos do 
+Transtorno do Espectro Autista em meninas de 0 a 19 anos, presentes nas plataformas escolhidas para a pesquisa, publicados 
+durante o período de 01 de janeiro de 2020 a 30 de setembro de 2024, em inglês ou português, que apresentaram texto completo 
+e estavam disponíveis gratuitamente. Ademais, os critérios de exclusão são: artigos que não diferenciaram sua amostra por sexo 
+e idade, revisões bibliográficas, artigos de opinião, estudos que não atenderam os critérios de elegibilidade, que não atingiram 
+os pré-requisitos de cada etapa de seleção pelos pesquisadores, ou que tiveram nível de evidência classificado em “Muito baixo”. 
+Inicialmente, para demonstrar a trajetória de busca e seleção dos estudos, conforme os critérios de inclusão e exclusão, 
+foi construído um fluxograma, seguindo as recomendações do grupo PRISMA.Com os artigos incluídos, foi elaborado um quadro 
+síntese com o auxílio dos softwares Microsoft Excel e Word, numa adaptação do Instrumento de Coleta de dados de Revisão 
+Integrativa, da coordenadora do RedENSO Internacional, Maria Helena Palucci Marziale (2005). É válido ressaltar que o item 
+Nível de Evidência teve como referência a classificação definida pelo Centro de Medicina Baseada em Evidências da 
+Universidade de Oxford (Howick et al., 2011). Por fim, foi feito um resumo de cada um dos artigos incluídos pelos pesquisadores, 
+avaliando os aspectos considerados pertinentes, baseado nos critérios de inclusão e adequação ao tema, para a construção dos 
+resultados e da discussão do trabalho. Por último, não foi necessária a submissão e avaliação do Comitê de Ética em Pesquisa 
+por se tratarem de dados secundários. 
+ 
+3. Resultados 
+Inicialmente, a busca foi feita nas bases de dados com os descritores em português e inglês, e os critérios de inclusão 
+aplicados nos filtros: estudos completos, publicados de janeiro de 2020 a outubro de 2024, nos idiomas inglês, português ou 
+espanhol. Dessa maneira, foram encontrados 38 artigos na BVS, 11 na Cochrane, 218 na PUBMED e 3 na SciELO, totalizando 
+270 artigos, que foram inseridos no aplicativo Rayyan (Ozzuani et al., 2016), para serem avaliados segundo os critérios de 
+exclusão.  
+O programa eliminou automaticamente 19 duplicatas e mais uma foi identificada e excluída manualmente, restando 250 
+artigos, que foram divididos de maneira que cinco pesquisadores avaliaram 42 artigos e um avaliador ficou com 41. Nas fases 
+da leitura de título e resumo dos artigos, tudo foi feito de maneira que um pesquisador não tivesse acesso ao veredito do outro 
+para o artigo. Já na fase de leitura integral, os artigos foram avaliados cada um por dois colaboradores, e a decisão de inclusão 
+foi realizada em conjunto, entrando mais um pesquisador para avaliar aqueles artigos nos quais houvesse divergência de opinião 
+entre os primeiros. Todo o processo encontra-se representado esquematicamente no fluxograma da Figura 1, baseado nas 
+recomendações do grupo PRISMA (Page et al., 2021). 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+5 
+Figura 1 – Fluxograma PRISMA ilustrando o processo de seleção dos artigos. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fonte: Autores (2024). 
+Seguiu-se a leitura dos títulos, etapa na qual foram eliminadas 160 publicações que não atendiam aos critérios de 
+inclusão (artigos pagos ou por não tratarem do TEA em meninas de 0 a 19 anos). Posteriormente, na seleção por resumo foram 
+excluídos 51 artigos que não contribuíam com o objetivo da pesquisa. Por último, na leitura completa, foram eliminados 30 
+artigos que eram revisões ou artigos de opinião (2), que demonstraram ter uma baixa significância (1), que não respondiam à 
+pergunta norteadora (12), que não estratificaram seus resultados por sexo e por idade, ou simplesmente não foram feitos com 
+uma amostra de meninas de 0 a 19 anos (15). Assim, totaliza-se 9 artigos incluídos, conforme descrito na Figura 1. 
+Para a análise dos artigos selecionados, foi realizada a extração das informações mais importantes (número do artigo, 
+título, autores, ano de publicação, tipo de estudo e nível de evidência mediante sua leitura integral) em uma tabela síntese, 
+categorizando os resultados. Este número atribuído a cada artigo, foi pensado com o objetivo de facilitar a realização de menções 
+posteriores durante a discussão, e foi dado em relação a sua posição na Tabela 1, onde todos os artigos foram organizados de 
+maneira aleatória. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Publicações adicionadas ao Rayyan a 
+partir da busca nas bases por: 
+““Transtorno do Espectro Autista” AND 
+Mulheres AND Criança AND 
+Adolescente”/“Autism Spectrum 
+Disorder” AND Women AND Child 
+AND Adolescent” 
+(n = 270) 
+Excluídas por duplicação  
+(n = 20) 
+Publicações selecionadas 
+para a leitura de título 
+(n = 250) 
+I
+D
+E
+N
+T
+I
+F
+I
+C
+A
+Ç
+Ã
+O 
+Publicações selecionadas 
+para a leitura de resumo 
+(n = 90) 
+Excluídas por fugirem dos 
+critérios de inclusão  
+(n = 160) 
+Publicações selecionadas 
+para a leitura completa 
+(n = 39) 
+Excluídas por não 
+corroborarem com o objetivo  
+(n = 51) 
+S
+E
+L
+E
+Ç
+Ã
+O 
+Publicações incluídas 
+(n = 9) 
+E
+L
+E
+G
+I
+B
+I
+L
+I
+D
+A
+D
+E 
+I
+N
+C
+L
+U
+S
+Ã
+O 
+Excluídas por não responderem à 
+pergunta norteadora  
+(n = 12) 
+Excluídas por terem nível de 
+evidência muito baixo  
+(n = 1) 
+Excluídas por não dividirem 
+amostra por sexo e idade  
+(n = 15) 
+Excluídas por serem revisões ou 
+artigos de opinião  
+(n = 2) 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+6 
+Tabela 1 – Artigos selecionados para a revisão e suas informações. 
+Artigo Título Ano Autores Tipo de Estudo NE 
+1 
+Social engagement and loneliness in 
+school-age autistic girls and boys 
+2023 
+Dean, M.; Kasari, C.; Orlich, F.; 
+Shih, W; & Chang, Y. 
+Ensaio Clínico 
+Randomizado 
+1B 
+2 
+Sex differences in social and emotional 
+insight in youth with and without autism 
+2023 
+Mattern, H.; Cola, M.; Tena, K.g.; 
+Knox, A.;Russell, A.; Pelella, M. R.; 
+Hauptmann, A.; Covello, M.; Parish-
+morris, J.; & Mccleery, J. P. 
+Estudo de caso-
+controle 
+3B 
+3 
+Sex differences in the course of autistic 
+and co-occurring psychopathological 
+symptoms  
+in adolescents with and without autism 
+spectrum disorder 
+2023 
+Horwitz, E.; Vos, M.; De Bildt, A.; 
+Greaves-lord, K.; Rommelse, N.; 
+Schoevers, R.; & Hartman, C. 
+Estudo de Coorte 2B 
+4 
+Sex differences in placenta-derived 
+markers and later autistic traits in children 
+2023 
+Tsompanidis A.; Blanken L.; Broere-
+brown Za.; Van Rijn Bb.; Baron-
+cohen S.; & Tiemeier H. 
+Estudo de Coorte 2B 
+5 
+Developmental changes in attention to 
+social information from childhood to 
+adolescence in autism spectrum disorders: 
+a comparative study 
+2020 
+Fujioka T.; Tsuchiya Kj.; Saito M.; 
+Hirano Y.; Matsuo M.; Kikuchi M.; 
+Maegaki Y.; Choi D.; Kato S.; 
+Yoshida T.; Yoshimura Y.; Ooba S.; 
+Mizuno Y.; Takiguchi S.; Matsuzaki 
+H.; Tomoda A.; Shudo K.; Ninomiya 
+M.; Katayama T.; & Kosaka H. 
+Relato de casos 3B 
+6 
+Sex differences in the first impressions 
+made by girls and boys with autism. 
+2020 
+Cola, M.l.; Plate, S.; Yankowitz, L.; 
+Petrulla, V.; Bateman, L.; Zampella, 
+C.j.; De Marchena, A.; Pandey, J.; 
+Schultz, R.t.; & Parish-morris, J. 
+Estudo ecológico 2C 
+7 
+The social brain in female autism: a 
+structural imaging study of twins. 
+2020 
+Cauvet É.; Van't Westeinde A.; Toro 
+R.; Kuja-halkola R.; Neufeld J.; 
+Mevel K.; & Bölte S. 
+Estudo de Coorte 
+  
+2B 
+8 
+Vitamin A Status Is More Commonly 
+Associated With Symptoms and 
+Neurodevelopment in Boys With Autism 
+Spectrum Disorders-A Multicenter Study 
+in China 
+2022 
+Yang T.; Chen L.; Dai Y,; Jia F.; 
+Hao Y.; Li L.; Zhang J.; Wu L,; Ke 
+X.; Yi M.; Hong Q,; Chen J.; Fang 
+S.; Wang Y.; Wang Q.; Jin C.; Chen 
+J.; & Li T. 
+Estudo clínico 
+transversal 
+3B 
+  
+9 
+Camouflaging in Autism: Age Effects and 
+Cross-Cultural Validation of the 
+Camouflaging Autistic Traits 
+Questionnaire (CAT-Q) 
+2024 Remnélius, L. K. & Bölte, S. 
+Estudo 
+observacional e 
+psicométrico 
+3B 
+Fonte: Autores (2024). 
+ 
+Os artigos apresentados acima, destacam como as diferenças de sexo influenciam o desenvolvimento, a expressão e o 
+diagnóstico do Transtorno do Espectro Autista (TEA). Um ponto em comum é a camuflagem social, mais evidente no sexo 
+feminino, que resulta em um maior custo psicológico e subdiagnóstico devido à habilidade de mascarar sintomas, especialmente, 
+no contexto de interações sociais. Além disso, as meninas apresentam melhor desempenho em cognição social e causalidade 
+emocional, tanto em indivíduos autistas quanto em neurotípicos, o que reforça a necessidade de ferramentas diagnósticas que 
+levem em conta as nuances de gênero. Assim, conforme o enfoque de cada artigo incluído na revisão, foi elaborado o Gráfico 1, 
+que facilitará a construção da discussão, posteriormente, além de fornecer uma visão mais abrangente dos resultados da seleção. 
+  
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+7 
+Gráfico 1 – Artigos selecionados para a revisão, conforme o tema. 
+ 
+Fonte: Autores (2024). 
+ 
+Os artigos foram agrupados conforme os aspectos que abordam para a elaboração da discussão. Foram encontrados 4 
+artigos que abordam as diferenças de sexo no comportamento social e emocional, 3 estudos sobre a relação das trajetórias de 
+desenvolvimento e os sintomas associados ao TEA e, por fim, foram selecionados 3 artigos que exploram aspectos biológicos e 
+biomarcadores variáveis entre os sexos associados à traços autistas. Esses grupos evidenciam como fatores comportamentais, 
+trajetórias de desenvolvimento e marcadores biológicos, interagem na expressão do TEA em meninas. 
+ 
+4. Discussão  
+Uma característica marcante do TEA em meninas é a “camuflagem”. Os artigos 1, 2, 6 e 9 abordam essa prática como 
+uma forma dessas jovens se encaixarem socialmente, e corresponderem às demandas socais que lhes são impostas. Contudo, tal 
+prática é prejudicial para essas garotas, haja vista que mascarar determinados comportamentos e imitar atitudes tidas como 
+“normais” para sociedade, é exaustivo física e psicologicamente, gerando repercussões negativas na saúde mental de mulheres 
+atípicas. 
+Contribuindo com essa ideia, a literatura atual afirma que apesar da capacidade de camuflar permitir que indivíduos 
+atípicos, possuam melhores desenvolvimentos sociais em um mundo neurotípico, tal prática torna-se exaustiva e nociva à saúde 
+mental, gerando, inclusive, uma piora considerável na qualidade de vida de indivíduos com TEA (Rocha et al., 2024).  
+Somado a isso, outra importante repercussão negativa da “camuflagem” é o atraso diagnóstico. Os artigos 1 e 6 afirmam 
+que, devido as meninas atípicas conseguirem ter um melhor desempenho social em relação aos meninos, e conseguirem mascarar 
+os sintomas típicos do TEA, muitos professores e até profissionais da saúde, não notam que aquela criança/adolescente possui 
+TEA, o que gera diagnósticos tardios, e menor acesso à assistência necessária para um desenvolvimento saudável. 
+Sendo assim, outros estudos também afirmam que meninas atípicas possuem uma boa capacidade de camuflar as 
+particularidades típicas do TEA, o que implica em uma dificuldade diagnóstica, e até mesmo em uma detecção precoce pelos 
+professores. Além disso, a literatura traz duas hipóteses acerca das disparidades entre os gêneros em relação ao início da 
+comunicação social: meninas apresentariam início tardio dos traços do TEA, ou apresentariam manifestações mais brandas, que 
+só seriam exacerbadas durante a adolescência onde a demanda social é maior. Isso explicaria o porquê mulheres atípicas teriam 
+seus diagnósticos feitos mais tardiamente (Kerches, 2022). 
+Outra importante análise é sobre as diferenças avaliadas pelos estudos, no tocante aos desenvolvimentos desiguais entre 
+meninos e meninas no TEA. De acordo com estes, não só os sintomas associados ao TEA são diferentes entre si, mas também 
+as suas próprias trajetórias de desenvolvimento possuem diferenças. Assim, no artigo 3, os autores evidenciam comportamentos 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+8 
+mais restritos aos meninos, como resistência à mudança e estereotipias motoras. Tal ideia também é apresentada em outros 
+estudos, como por exemplo, a maior relação entre pessoas com TEA do sexo feminino e a apresentação de perfis de atenção 
+social aumentados, associando-se possivelmente às diferenças encontradas na expressão do TEA entre os sexos, tendo em vista 
+a maior exposição e adaptação social de meninas (Del Bianco et al., 2022). 
+No entanto, tais diferenças comportamentais sofrem mudanças ao longo do tempo, haja vista que o padrão de 
+comportamento feminino, como apontado pelos autores sofre modificação. Sendo esta, que durante o início da adolescência 
+esses comportamentos mais externos associados ao TEA, como ansiedade e as próprias dificuldades em lidar com mudanças são 
+mais observados em meninas com TEA, atenuando as diferenças visualizadas pelos autores em idades menores. 
+Além de desenvolvimentos díspares acerca dos comportamentos e sintomas associados ao TEA, entre meninos e 
+meninas, algumas características típicas de serem encontradas em indivíduos com TEA do sexo masculino também se 
+diferenciam em sua expressão para as meninas. Com isso, os autores dos artigos 3 e 5, apresentaram ideias concomitantes em 
+relação às diferenças observadas a respeito do mascaramento de comportamentos sociais em meninas; no artigo 5, os autores 
+informam que há uma diminuição na proporção de contato visual de indivíduos com TEA a partir dos 10 anos de idade, este 
+dado também é confirmado por outro estudo que relaciona a diminuição de contato visual em crianças com TEA, demonstrando 
+uma proporção significativamente menor dessa interação em comparação com crianças que não se enquadraram no TEA 
+(Viktorsson et al., 2024). Porém, esse padrão se expressa de maneira mais acentuada em meninas, juntamente com maior 
+observação dos movimentos da boca. Tal informação, se associa com o descrito no artigo 3, que, salienta como o 
+desenvolvimento do TEA em meninas exacerba-se com o avanço da idade. 
+Outro fator associado as expressões diferentes entre meninas e meninos no TEA, seria correlacionado com diminuições 
+desiguais das estruturas cerebrais. Esse dado descrito pelos autores do artigo 7, apresenta que meninas com níveis mais elevados 
+de traços autistas, estão relacionadas com maior lentidão na diminuição de volume de substância cinzenta (SC) em regiões 
+específicas do cérebro correspondentes ao giro parahipocampal esquerdo, giro temporal médio, córtex orbitofrontal e temporal 
+superior. Esse tempo maior na redução de volume da SC foi relacionado por eles a mecanismos de proteção observado em 
+mulheres. 
+No estudo de Tsompanidis e colaboradores (2023), investigou-se a relação entre marcadores de angiogênese na placenta 
+e TEA. Os dois marcadores pesquisados foram Fator de Crescimento Placentário (PIGF) e Fator Semelhante a Tirosina Quinase 
+1 (Sflt-1), que atuam respectivamente, como agonista e antagonista do Fator de Crescimento Endotelial Vascular (VEGF), 
+responsável pela angiogênese do feto nos primeiros dois trimestres da gestação. Descobrindo que gestações com altos níveis de 
+PIGF tendem a gerar uma criança com mais traços autistas em ambos os sexos. Contudo, esta relação é estatisticamente 
+significante apenas em mulheres, pois esse fator aumenta globalmente nas gestações de meninos a partir do segundo trimestre, 
+permitindo que seja usado como biomarcador relacionado ao autismo apenas no sexo feminino.  
+Além disso, descobriu-se que os níveis de Sflt-1 também estão sujeitos a alterações, com homens autistas apresentando 
+níveis menores que homens não diagnosticados, que, por sua vez, apresentam níveis menores que mulheres não diagnosticadas. 
+Essas diferenças nos níveis dos marcadores entre os sexos, podem estar relacionadas à diferença sexual nos diagnósticos do 
+TEA, uma vez que o PIGF está mais presente nas gestações de indivíduos masculinos, e o Sflt-1 nas de meninas. Contudo, não 
+está claro como essas diferenças nos moduladores da angiogênese fetal relacionam-se com o autismo e se não são apenas 
+consequências de um outro processo que de fato esteja influenciando o neurodesenvolvimento. 
+ 
+5. Conclusão  
+Portanto, conclui-se que o TEA em mulheres possui muitas características, que o diferem do mesmo processo na 
+população masculina. Fatores como a camuflagem, alterações de comportamento específicas e expectativas externas diferentes, 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+9 
+geram uma experiência social fundamentalmente única — e, por vezes, até oposta daquela vivida por homens — com vantagens 
+e desafios particulares a si.  
+Isso demonstra que o autismo é uma neurodivergência bastante única a cada um dos sexos, não sendo passível de 
+generalização nesse aspecto. Simplificar o transtorno tem um resultado prejudicial às meninas dentro do espectro autista, uma 
+vez que as tenta inserir em um modelo de TEA eminentemente masculino, ignorando seus próprios obstáculos e por vezes 
+gerando um subdiagnóstico crônico nessa população, que acaba por não receber o suporte adequado para seu 
+neurodesenvolvimento saudável. 
+O presente artigo contribuiu para a comunidade científica ao relacionar as várias diferenças do TEA em mulheres, e 
+para contestar o entendimento corrente de que as mesmas alterações podem ser esperadas para ambos os sexos. Um maior 
+entendimento do autismo na população feminina é de grande importância para um país com um número cada vez maior de 
+diagnósticos nesse público, e produz uma quantidade muito baixa de pesquisas com tal foco. 
+Essa pesquisa, no entanto, está sujeita a limitações que são: a pequena amostra de artigos, por se tratar de um tema que 
+recebe menor atenção acadêmica; posteriores reduções na quantidade de pesquisas disponíveis com a inclusão de apenas três 
+línguas, e a exclusão de estudos que exigem pagamento para o acesso; a realização de uma análise a partir de vários estudos 
+primários com variável qualidade metodológica; e a suscetibilidade a viés de publicação, uma vez que há uma tendência natural 
+no meio acadêmico à publicação de artigos que demonstrem resultados positivos, podendo afetar a qualidade de pesquisas 
+aportadas em estudos de terceiros. 
+Desse modo, é válido ressaltar que pesquisas futuras podem ser direcionadas ao desenvolvimento de um instrumento 
+específico para o diagnóstico do TEA em meninas, ou mesmo de uma cartilha que diferencie as manifestações observadas nos 
+dois sexos, tornando essas informações acessíveis aos médicos e servidores da atenção primária em saúde. Por último, faz-se 
+fundamental um protocolo que norteie o diagnóstico do TEA em mulheres na adolescência e na idade adulta, levando em conta 
+os mecanismos de camuflagem e a manifestação de outros transtornos em consequência, como depressão e ansiedade. Assim, 
+este fenômeno do subdiagnóstico do TEA em mulheres poderia ser corrigido e, os prejuízos do diagnóstico tardio para essas 
+mulheres poderiam ser atenuados. 
+ 
+Referências  
+Cauvet, É., et al. (2020). The social brain in female autism: A structural imaging study of twins. Social Cognitive and Affective Neuroscience, 15(4), 423–436. 
+https://doi.org/10.1093/scan/nsaa064 
+ 
+Cola, M. L., et al. (2020). Sex differences in the first impressions made by girls and boys with autism. Molecular Autism, 11(1), Article 34. 
+https://doi.org/10.1186/s13229-020-00336-3 
+ 
+Crossetti, M. da G. O. (2012). Revisión integrativa de la investigación en enfermería, el rigor científico que se le exige. Revista Gaúcha de Enfermagem, 33(2), 
+10–11. https://doi.org/10.1590/s1983-14472012000200002 
+ 
+Dean, M., et al. (2023). Social engagement and loneliness in school-age autistic girls and boys. Women’s Health, 19, 174550572311709. 
+https://doi.org/10.1177/17455057231170973 
+ 
+Del Bianco, T., et al. (2022). Unique dynamic profiles of social attention in autistic females. Journal of Child Psychology and Psychiatry, and Allied Disciplines, 
+63(12), 1602–1614. https://doi.org/10.1111/jcpp.13630 
+ 
+Fink, B. K., Moreira, A. G., & de Lima, S. S. (2023). Transtorno do Espectro Autista em meninas: uma análise comparativa envolvendo estudos de gênero e 
+possível sub reconhecimento na população feminina. Brazilian Journal of Development, 9(9), 26420–26435. https://doi.org/10.34117/bjdv9n9-056 
+ 
+Fombonne, E. (2020). Camouflage and autism. Journal of Child Psychology and Psychiatry, 61(7), 735–738. https://doi.org/10.1111/jcpp.13296 
+ 
+Fujioka, T., et al. (2020). Developmental changes in attention to social information from childhood to adolescence in autism spectrum disorders: A comparative 
+study. Molecular Autism, 11(1), Article 14. https://doi.org/10.1186/s13229-020-00321-w 
+ 
+Freire, M. G., & Cardoso, H. dos S. P. (2022). Diagnóstico do autismo em meninas: Revisão sistemática. Revista Psicopedagogia, 39(120). 
+https://doi.org/10.51207/2179-4057.20220033 
+ 
+Research, Society and Development, v. 14, n. 2, e13414248337, 2025 
+(CC BY 4.0) | ISSN 2525-3409 | DOI: http://dx.doi.org/10.33448/rsd-v14i2.48337 
+ 
+ 
+10 
+Hervás, A. (2016). Un autismo, varios autismos. Variabilidad fenotípica en los trastornos del espectro autista. Revista de Neurología, 62(1), 9–14. 
+https://doi.org/10.33588/rn.62S01.2016068 
+ 
+Hopia, H., Latvala, E., & Liimatainen, L. (2016). Reviewing the methodology of an integrative review. Scandinavian Journal of Caring Sciences, 30(4), 662–
+669. https://doi.org/10.1111/scs.12327 
+ 
+Horwitz, E., Vos, M., De Bildt, A., Greaves-Lord, K., Rommelse, N., Schoevers, R., & Hartman, C. (2023). Sex differences in the course of autistic and co-
+occurring psychopathological symptoms in adolescents with and without autism spectrum disorder. Autism, 136236132211464. 
+https://doi.org/10.1177/13623613221146477 
+ 
+Howick, J., Chalmers, I., Glasziou, P., et al. (2011). Oxford Centre for Evidence-Based Medicine 2011 levels of evidence. https://www.cebm.net/wp-
+content/uploads/2014/06/CEBM-Levels-of-Evidence-2.1.pdf 
+ 
+IPQ. Instituto de Psiquiatria. (2024). Diagnóstico precoce de autismo é mais difícil em meninas; conheça os sinais do transtorno. Instituto de Psiquiatria. 
+https://ipqhc.org.br/2024/04/02/diagnostico-precoce-de-autismo-e-mais-dificil-em-meninas-conheca-os-sinais-do-transtorno/ 
+ 
+Kerches, D. (2022). Camuflagem social e as dificuldades diagnósticas no transtorno do espectro autista em pacientes do sexo feminino. 
+https://autismoerealidade.org.br/2022/02/25/camuflagem-social-x-diagnostico-de-tea-no-publico-feminino/ 
+ 
+Marziale, M. H. P. (2005). Instrumento para recolección de datos: revisión integrativa. http://gruposdepesquisa.eerp.usp.br/sites/redenso/wp-
+content/uploads/sites/9/2019/09/Instrumiento_revision_litetarura_RedENSO_2015.pdf 
+ 
+Mattern, H., Cola, M., Tena, K. G., Knox, A., Russell, A., Pelella, M. R., Hauptmann, A., Covello, M., Parish-Morris, J., & McCleery, J. P. (2023). Sex 
+differences in social and emotional insight in youth with and without autism. Molecular Autism, 14(1). https://doi.org/10.1186/s13229-023-00541-w 
+ 
+Milner, V., McIntosh, H., Colvert, E., & Happé, F. (2019). A Qualitative Exploration of the Female Experience of Autism Spectrum Disorder (ASD). Journal 
+of Autism and Developmental Disorders, 49(6). https://doi.org/10.1007/s10803-019-03906-4 
+ 
+Ministério da Saúde. (2022). TEA: saiba o que é o Transtorno do Espectro Autista e como o SUS tem dado assistência a pacientes e familiares. Ministério da 
+Saúde. https://www.gov.br/saude/pt-br/assuntos/noticias/2022/abril/tea-saiba-o-que-e-o-transtorno-do-espectro-autista-e-como-o-sus-tem-dado-assistencia-a-
+pacientes-e-familiares 
+ 
+Ozzuani, M., Hammady, H., Fedorowicz, Z., & Elmagarmid, A. (2016). Rayyan—a web and mobile app for systematic reviews. Systematic Reviews, 5(1), 210. 
+https://doi.org/10.1186/s13643-016-0384-4 
+ 
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., ... & Moher, D. (2021). The PRISMA 2020 statement: An updated 
+guideline for reporting systematic reviews. BMJ (Clinical Research Ed.), 372, n71. https://doi.org/10.1136/bmj.n71 
+ 
+Pereira A. S. et al. (2018). Metodologia da pesquisa científica. [free e-book]. Santa Maria/RS. Ed. UAB/NTE/UFSM. 
+ 
+Remnélius, L. K., & Bölte, S. (2023). Camouflaging in autism: Age effects and cross-cultural validation of the Camouflaging Autistic Traits Questionnaire 
+(CAT-Q). Journal of Autism and Developmental Disorders. https://doi.org/10.1007/s10803-023-05909-8 
+ 
+Rocha, P. A., Silva, R. A., Oliveira, M. J., & Santos, L. F. (2024). O impacto da camuflagem social no diagnóstico tardio do Transtorno do Espectro Autista. 
+Revista Eletrônica Acervo Saúde, 24(6), e16579. https://doi.org/10.25248/REAS.e16579.2024 
+ 
+Santos, M., & Galvão, M. (2014). A elaboração da pergunta adequada de pesquisa. Residência Pediátrica, 4(2), 53–56. https://doi.org/10.25060/residpediatr 
+ 
+Sociedade Brasileira de Pediatria. (2019). Manual de orientação para Transtorno do Espectro Autista (5. ed.). SPB. 
+www.sbp.com.br/fileadmin/user_upload/Ped._Desenvolvimento_-_21775b-MO_-_Transtorno_do_Espectro_do_Autismo.pdf 
+ 
+Tsompanidis, A., Ecker, C., Hoh, M., & D'Souza, J. (2023). Sex differences in placenta-derived markers and later autistic traits in children. Translational 
+Psychiatry, 13(1), 256. https://doi.org/10.1038/s41398-023-02552-w 
+ 
+Viktorsson, C., Bölte, S., & Falck-Ytter, T. (2024). How 18-month-olds with later autism look at other children interacting: The timing of gaze allocation. Journal 
+of Autism and Developmental Disorders, 54(11), 4091–4101. https://doi.org/10.1007/s10803-023-06118-z 
+ 
+World Health Organization. (2024). Mental Health of Adolescents. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/adolescent-
+mental-health 
+ 
+Yang, T., Zhang, X., Liu, X., & Chen, J. (2022). Vitamin A status is more commonly associated with symptoms and neurodevelopment in boys with autism 
+spectrum disorders—A multicenter study in China. Frontiers in Nutrition, 9, Article 800308. https://doi.org/10.3389/fnut.2022.851980 
