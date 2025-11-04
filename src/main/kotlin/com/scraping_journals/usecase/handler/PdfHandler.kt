@@ -62,7 +62,7 @@ class PdfHandler {
             val texto = stripper.getText(document)
 
             // (opcional) salvar texto para inspecionar o conteúdo real
-            File("debug_texto_extraido.txt").writeText(texto)
+//            File("debug_texto_extraido.txt").writeText(texto)
 
             // Expressão regular que captura o conteúdo da seção "Metodologia", "Método" ou "Methodology"
             val regex = Regex(

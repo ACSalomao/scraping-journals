@@ -15,6 +15,6 @@ data class Prisma(
     val title: String,
     val abstractText: String,
     val methodologyText: String,
-    val methodologyCategory: String,
+    val methodologyCategory: String?,
     val linkToJournal: String
 )

@@ -1,9 +1,7 @@
 package com.scraping_journals.usecase.service
 
 import com.scraping_journals.adapter.client.UnsafeWebClientFactory
-import org.springframework.http.MediaType
 import org.springframework.stereotype.Service
-import java.io.File
 import java.net.URI
 
 @Service
