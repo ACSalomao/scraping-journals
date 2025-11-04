@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/open-router")
 class OpenRouterController(
-    private val service: OpenRouterService
+    private val openRouterService: OpenRouterService
 ) {
 
     @PostMapping("/ask")
     fun ask(@RequestBody question: String): String =
-        service.ask(question)
+        openRouterService.ask(question)
 }
