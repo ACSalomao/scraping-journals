@@ -36,4 +36,15 @@ class ScrapingJournalsApplicationTests(){
         println(abstract)
     }
 
+
+    @Test
+    fun iterationTest(){
+        val list = listOf("A", "B", "C")
+
+        list.forEachIndexed { index, item ->
+            println("Index: $index, Item: $item")
+        }
+
+    }
+
 }

@@ -18,10 +18,11 @@ class ProcessorScrapingDataService(
     private val downloadPdfService: DownloadPdfService,
     private val pdfHandler: PdfHandler,
     private val openRouterService: OpenRouterService,
+    private val prismaExportService: PrismaExportService,
     private val logger: Logger = LoggerFactory.getLogger(ProcessorScrapingDataService::class.java)
 ) {
 
-    fun execute(scrapingDobResponse: ScrapingDobResponse) {
+    fun execute(scrapingDobResponse: ScrapingDobResponse): ByteArray {
 
         val unableToFetchPdf: MutableList<Pair<String?, String?>> = mutableListOf()
         for (scholarResult in scrapingDobResponse.scholarResults!!) {
@@ -39,34 +40,45 @@ class ProcessorScrapingDataService(
             // Tenta baixar o PDF
             val pdfFile = getPdfFile(pdfLink)
 
-            //Salva o arquivo temporariamente para extração de texto
-            val tempFile = File.createTempFile("uploaded-", ".pdf")
-            pdfFile?.transferTo(tempFile)
+            var abstractText: String? = null
+            var methodologyText: String? = null
+            var methodologyCategory: String? = null
 
-            // Extrai o texto do resumo e da metodologia
-            val abstractText = getAbstractTextFromPdf(tempFile)
-            val methodologyText = getMethodologyTextFromPdf(tempFile)
-            val methodologyCategory = categorizeMethodology(abstractText, methodologyText)
+            if (pdfFile != null) {
+                //Salva o arquivo temporariamente para extração de texto
+                val tempFile = File.createTempFile("journalPDF", ".pdf")
+                pdfFile.transferTo(tempFile)
 
-            // Limpeza do arquivo temporário
-            tempFile.delete()
+                // Extrai o texto do resumo e da metodologia
+                abstractText = getAbstractTextFromPdf(tempFile)
+                methodologyText = getMethodologyTextFromPdf(tempFile)
+                methodologyCategory = categorizeMethodology(abstractText, methodologyText)
+
+                // Limpeza do arquivo temporário
+                tempFile.delete()
+            }
 
             val prisma = Prisma(
                 source = SOURCE,
                 title = scholarResult.title!!,
-                abstractText = abstractText,
-                methodologyText = methodologyText,
-                methodologyCategory = methodologyCategory,
+                type = scholarResult.type ?: "Sem tipo",
+                abstractText = abstractText ?: "Sem resumo",
+                methodologyText = methodologyText ?: "Sem metodologia",
+                methodologyCategory = methodologyCategory ?: "Sem classificação",
                 linkToJournal = pdfLink.second
             )
             prismaRepository.save(prisma)
         }
 
-        //Export da base de dado para Excel
-
         //Loggar os títulos que não foi possível baixar o PDF
+        unableToFetchPdf.forEachIndexed { index, item ->
+            logger.info("${index}: Título: ${item.first}")
+        }
 
-        return  //Retorna o arquivo Excel gerado
+        //Export da base de dado para Excel
+        val exportFile = prismaExportService.exportToExcel()
+
+        return exportFile //Retorna o arquivo Excel gerado
     }
 
 
@@ -91,11 +103,11 @@ class ProcessorScrapingDataService(
             .append(contextEnd)
             .toString()
 
-        logger.info("Query: $query")
+//        logger.info("Query: $query")
 
         val typeOfArticle = openRouterService.ask(query)
 
-        logger.info("OpenRouter Response: $typeOfArticle")
+//        logger.info("OpenRouter Response: $typeOfArticle")
 
         return typeOfArticle
     }
