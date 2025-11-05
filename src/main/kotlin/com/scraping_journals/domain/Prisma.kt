@@ -20,5 +20,6 @@ data class Prisma(
     @Lob
     val methodologyText: String?,
     val methodologyCategory: String?,
+    @Lob
     val linkToJournal: String
 )
