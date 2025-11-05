@@ -25,60 +25,76 @@ class ProcessorScrapingDataService(
     fun execute(scrapingDobResponse: ScrapingDobResponse): ByteArray {
 
         val unableToFetchPdf: MutableList<Pair<String?, String?>> = mutableListOf()
-        for (scholarResult in scrapingDobResponse.scholarResults!!) {
 
-            // Verifica se há links de recursos disponíveis
-            val pdfLink: Pair<JournalLinkSourceEnum, String> = if (!scholarResult.resources.isNullOrEmpty()) {
-                logger.info("Link de recurso encontrado, título: ${scholarResult.title}")
-                Pair(JournalLinkSourceEnum.RESOURCES_LINK, scholarResult.resources.first().link!!)
-            } else {
-                logger.info("Nenhum link de recurso encontrado, título: ${scholarResult.title}")
-                unableToFetchPdf.add(Pair(scholarResult.title, scholarResult.titleLink))
-                Pair(JournalLinkSourceEnum.TITLE_LINK, scholarResult.titleLink!!)
+        try {
+            for (scholarResult in scrapingDobResponse.scholarResults!!) {
+
+                // Verifica se há links de recursos disponíveis
+                val pdfLink: Pair<JournalLinkSourceEnum, String> = if (!scholarResult.resources.isNullOrEmpty()) {
+                    logger.info("Link de recurso encontrado, título: ${scholarResult.title}")
+                    Pair(JournalLinkSourceEnum.RESOURCES_LINK, scholarResult.resources.first().link!!)
+                } else {
+                    logger.info("Nenhum link de recurso encontrado, título: ${scholarResult.title}")
+                    unableToFetchPdf.add(Pair(scholarResult.title, scholarResult.titleLink))
+                    Pair(JournalLinkSourceEnum.TITLE_LINK, scholarResult.titleLink!!)
+                }
+
+                // Tenta baixar o PDF
+                val pdfFile = getPdfFile(pdfLink)
+
+                var abstractText: String? = null
+                var methodologyText: String? = null
+                var methodologyCategory: String? = null
+
+                if (pdfFile != null) {
+                    //Salva o arquivo temporariamente para extração de texto
+                    val tempFile = File.createTempFile("journalPDF", ".pdf")
+                    pdfFile.transferTo(tempFile)
+
+                    // Extrai o texto do resumo e da metodologia
+                    abstractText = getAbstractTextFromPdf(tempFile)
+                    methodologyText = getMethodologyTextFromPdf(tempFile)
+                    methodologyCategory = categorizeMethodology(abstractText, methodologyText)
+
+                    // Limpeza do arquivo temporário
+                    tempFile.delete()
+                }
+
+                val prisma = Prisma(
+                    source = SOURCE,
+                    title = scholarResult.title!!,
+                    type = scholarResult.type ?: "Sem tipo",
+                    abstractText = abstractText ?: "Sem resumo",
+                    methodologyText = methodologyText ?: "Sem metodologia",
+                    methodologyCategory = methodologyCategory ?: "Sem classificação",
+                    linkToJournal = pdfLink.second
+                )
+                prismaRepository.save(prisma)
             }
 
-            // Tenta baixar o PDF
-            val pdfFile = getPdfFile(pdfLink)
-
-            var abstractText: String? = null
-            var methodologyText: String? = null
-            var methodologyCategory: String? = null
-
-            if (pdfFile != null) {
-                //Salva o arquivo temporariamente para extração de texto
-                val tempFile = File.createTempFile("journalPDF", ".pdf")
-                pdfFile.transferTo(tempFile)
-
-                // Extrai o texto do resumo e da metodologia
-                abstractText = getAbstractTextFromPdf(tempFile)
-                methodologyText = getMethodologyTextFromPdf(tempFile)
-                methodologyCategory = categorizeMethodology(abstractText, methodologyText)
-
-                // Limpeza do arquivo temporário
-                tempFile.delete()
+            //Loggar os títulos que não foi possível baixar o PDF
+            unableToFetchPdf.forEachIndexed { index, item ->
+                logger.info("${index}: Título: ${item.first}")
             }
 
-            val prisma = Prisma(
-                source = SOURCE,
-                title = scholarResult.title!!,
-                type = scholarResult.type ?: "Sem tipo",
-                abstractText = abstractText ?: "Sem resumo",
-                methodologyText = methodologyText ?: "Sem metodologia",
-                methodologyCategory = methodologyCategory ?: "Sem classificação",
-                linkToJournal = pdfLink.second
-            )
-            prismaRepository.save(prisma)
+            //Export da base de dado para Excel
+            val exportFile = prismaExportService.exportToExcel()
+
+            return exportFile //Retorna o arquivo Excel gerado
+        } catch (e: Exception) {
+
+            logger.error("Erro no processamento: ${e.message}")
+
+            //Loggar os títulos que não foi possível baixar o PDF
+            unableToFetchPdf.forEachIndexed { index, item ->
+                logger.info("${index}: Título: ${item.first}")
+            }
+
+            //Export da base de dado para Excel
+            val exportFile = prismaExportService.exportToExcel()
+
+            return exportFile //Retorna o arquivo Excel gerado
         }
-
-        //Loggar os títulos que não foi possível baixar o PDF
-        unableToFetchPdf.forEachIndexed { index, item ->
-            logger.info("${index}: Título: ${item.first}")
-        }
-
-        //Export da base de dado para Excel
-        val exportFile = prismaExportService.exportToExcel()
-
-        return exportFile //Retorna o arquivo Excel gerado
     }
 
 
@@ -87,7 +103,10 @@ class ProcessorScrapingDataService(
 
     private fun getMethodologyTextFromPdf(tempFile: File) = pdfHandler.extractMethodologyBr(tempFile.path)
 
-    private fun categorizeMethodology(abstractText: String?, methodologyText: String?): String? {
+    private fun categorizeMethodology(abstractText: String?, methodologyText: String?): String {
+        if (abstractText == null && methodologyText == null) {
+            return PROCESSOR_ERROR
+        }
 
         val contextStart =
             "Dado os textos abaixo, classifique o trabalho de acordo com o tipo de artigo mais apropriado do array fornecido."
@@ -129,6 +148,7 @@ class ProcessorScrapingDataService(
 
     companion object {
         const val SOURCE = "Google Acadêmico"
+        const val PROCESSOR_ERROR = "ERRO DE PROCESSAMENTO"
         const val DIRECT_LINK = "DIRECT_LINK"
         const val NOT_DIRECT_LINK = "NOT_DIRECT_LINK"
     }
