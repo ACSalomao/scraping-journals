@@ -48,7 +48,7 @@ class ProcessorScrapingDataService(
 
                 if (pdfFile != null) {
                     //Salva o arquivo temporariamente para extração de texto
-                    val tempFile = File.createTempFile("journalPDF", ".pdf")
+                    val tempFile = File.createTempFile("journalPDF-", ".pdf")
                     pdfFile.transferTo(tempFile)
 
                     // Extrai o texto do resumo e da metodologia
@@ -62,7 +62,7 @@ class ProcessorScrapingDataService(
 
                 val prisma = Prisma(
                     source = SOURCE,
-                    title = scholarResult.title!!,
+                    title = scholarResult.title,
                     type = scholarResult.type ?: "Sem tipo",
                     abstractText = abstractText ?: "Sem resumo",
                     methodologyText = methodologyText ?: "Sem metodologia",

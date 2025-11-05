@@ -13,7 +13,7 @@ data class Prisma(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0,
     val source: String,
-    val title: String,
+    val title: String?,
     val type: String?,
     @Lob
     val abstractText: String?,
