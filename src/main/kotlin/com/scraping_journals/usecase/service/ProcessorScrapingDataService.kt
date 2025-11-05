@@ -35,7 +35,7 @@ class ProcessorScrapingDataService(
                     Pair(JournalLinkSourceEnum.RESOURCES_LINK, scholarResult.resources.first().link!!)
                 } else {
                     logger.info("Nenhum link de recurso encontrado, título: ${scholarResult.title}")
-                    unableToFetchPdf.add(Pair(scholarResult.title, scholarResult.titleLink))
+                    unableToFetchPdf.add(Pair(scholarResult.title ?: "Sem título", scholarResult.titleLink))
                     Pair(JournalLinkSourceEnum.TITLE_LINK, scholarResult.titleLink!!)
                 }
 
@@ -62,7 +62,7 @@ class ProcessorScrapingDataService(
 
                 val prisma = Prisma(
                     source = SOURCE,
-                    title = scholarResult.title,
+                    title = scholarResult.title ?: "Sem título",
                     type = scholarResult.type ?: "Sem tipo",
                     abstractText = abstractText ?: "Sem resumo",
                     methodologyText = methodologyText ?: "Sem metodologia",
