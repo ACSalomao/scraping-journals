@@ -11,7 +11,9 @@ class OpenRouterService(
 ) {
     fun ask(question: String): String {
         val request = ChatRequest(
-            model = "openai/gpt-oss-20b:free", // modelo leve e rápido
+            model = "nvidia/nemotron-nano-12b-v2-vl:free",
+//            model = "google/gemma-3n-e4b-it:free",
+//            model = "openai/gpt-oss-20b:free", // modelo leve e rápido
             messages = listOf(ChatMessage("user", question))
         )
 

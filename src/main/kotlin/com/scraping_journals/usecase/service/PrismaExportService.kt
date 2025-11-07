@@ -1,13 +1,16 @@
 package com.scraping_journals.usecase.service
 
 import com.scraping_journals.adapter.repository.PrismaRepository
+import com.scraping_journals.adapter.repository.RegistryExcelRepository
+import com.scraping_journals.domain.RegistryExcel
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 import org.springframework.stereotype.Service
 import java.io.ByteArrayOutputStream
 
 @Service
 class PrismaExportService(
-    private val prismaRepository: PrismaRepository
+    private val prismaRepository: PrismaRepository,
+    private val registryExcelRepository: RegistryExcelRepository
 ) {
     fun exportToExcel(): ByteArray {
         val list = prismaRepository.findAll()
@@ -42,5 +45,34 @@ class PrismaExportService(
         workbook.close()
 
         return out.toByteArray()
+    }
+
+    fun exportRegistryToExcel(): ByteArray? {
+        val registros = registryExcelRepository.findAll()
+        val workbook = XSSFWorkbook()
+        val sheet = workbook.createSheet("Registros")
+
+        // Cria o cabeçalho
+        val header = sheet.createRow(0)
+        val headers = listOf("Base de Dados", "Título", "Abstract", "Foi Incluído?", "Critério")
+        headers.forEachIndexed { i, title -> header.createCell(i).setCellValue(title) }
+
+        // Preenche as linhas
+        registros.forEachIndexed { index, registro ->
+            val row = sheet.createRow(index + 1)
+            row.createCell(0).setCellValue(registro.baseDeDados ?: "")
+            row.createCell(1).setCellValue(registro.titulo ?: "")
+            row.createCell(2).setCellValue(registro.abstract ?: "")
+            row.createCell(3).setCellValue(registro.foiIncluido ?: "")
+            row.createCell(4).setCellValue(registro.criterio ?: "")
+        }
+
+        // Autoajustar colunas
+        headers.indices.forEach { sheet.autoSizeColumn(it) }
+
+        val outputStream = ByteArrayOutputStream()
+        workbook.write(outputStream)
+        workbook.close()
+        return outputStream.toByteArray()
     }
 }

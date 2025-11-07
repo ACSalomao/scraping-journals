@@ -60,6 +60,10 @@ dependencies {
     // Apache POI para manipulação de arquivos Excel
     implementation("org.apache.poi:poi-ooxml:5.3.0")
 
+    /* Oracle */
+    implementation("com.oracle.database.jdbc:ojdbc11:21.1.0.0")
+
+
     // Testes
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation('org.jetbrains.kotlin:kotlin-test-junit5')
