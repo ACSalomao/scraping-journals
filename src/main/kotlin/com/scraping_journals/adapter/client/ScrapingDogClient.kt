@@ -1,0 +1,22 @@
+package com.scraping_journals.adapter.client
+
+import com.scraping_journals.domain.response.ScrapingDobResponse
+import org.springframework.cloud.openfeign.FeignClient
+import org.springframework.http.ResponseEntity
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestParam
+
+@FeignClient(name = "scrapingDogClient", url = "\${scraping-dog.api.url}")
+interface ScrapingDogClient {
+
+    @GetMapping("/google_scholar")
+    fun searchGoogleScholar(
+        @RequestParam("api_key") apiKey: String,
+        @RequestParam("query") query: String,
+        @RequestParam("language") language: String?,
+        @RequestParam("as_ylo") asYlo: String?,
+        @RequestParam("as_yhi") asYhi: String?,
+        @RequestParam("page") page: Int,
+        @RequestParam("results") results: Int
+    ): ResponseEntity<ScrapingDobResponse>
+}
